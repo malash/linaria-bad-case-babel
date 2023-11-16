@@ -4,7 +4,7 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "start": "babel --presets=@babel/typescript,@linaria src/index.ts"
+    "start": "babel src/index.ts"
   },
   "dependencies": {
     "@babel/cli": "^7.23.0",
