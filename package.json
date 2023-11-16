@@ -4,12 +4,12 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "start": "babel --presets=@babel/typescript,@linaria src/index.ts"
+    "start": "babel --presets=@babel/typescript,linaria/babel src/index.ts"
   },
   "dependencies": {
     "@babel/cli": "^7.23.0",
     "@babel/core": "^7.23.3",
     "@babel/preset-typescript": "^7.23.3",
-    "@linaria/babel-preset": "^5.0.4"
+    "linaria": "^2.3.1"
   }
 }
