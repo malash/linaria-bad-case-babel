@@ -1,0 +1,14 @@
+{
+  "name": "bad-case-linaria",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "babel --presets=@babel/typescript,@linaria src/index.ts"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/preset-typescript": "^7.23.3",
+    "@linaria/babel-preset": "^5.0.4"
+  }
+}
