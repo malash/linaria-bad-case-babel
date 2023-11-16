@@ -119,6 +119,10 @@ const a = 1;
 ✨  Done in 0.26s.
 ```
 
+## Linaria 2
+
+This bug is not present in Linaria 2. If you want to see the good case, you should checkout the `linaria-2` branch.
+
 ## Conclusion
 
 I have no idea why this is happening, but I think it's a bug in the `@linaria/babel-preset` package. As I understand it, the `@linaria/babel-preset` package should be able to work with the `babel.config.json` file or `babel --presets` option, but it doesn't.
