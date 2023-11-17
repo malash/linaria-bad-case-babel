@@ -4,7 +4,10 @@
     [
       "@linaria",
       {
-        "features": { "useBabelConfigs": false }
+        "features": { "useBabelConfigs": false },
+        "babelOptions": {
+          "presets": ["@babel/typescript"]
+        }
       }
     ]
   ]
