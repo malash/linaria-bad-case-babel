@@ -1,3 +1,11 @@
 {
-  "presets": ["@babel/typescript", "@linaria"]
+  "presets": [
+    "@babel/typescript",
+    [
+      "@linaria",
+      {
+        "features": { "useBabelConfigs": false }
+      }
+    ]
+  ]
 }
